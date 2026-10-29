@@ -1,0 +1,210 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Xiaofan Cui researches uncertainty-aware personal agents, adaptive user modeling, and human–AI interaction.">
+  <meta name="author" content="Xiaofan Cui">
+  <meta property="og:title" content="Xiaofan Cui — Human–AI Interaction Researcher">
+  <meta property="og:description" content="Research on uncertain user intent, adaptive user models, and explainable personal agents.">
+  <meta property="og:type" content="website">
+  <title>Xiaofan Cui — Human–AI Interaction Researcher</title>
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <header class="site-header">
+    <a class="monogram" href="#top" aria-label="Xiaofan Cui, home">XC</a>
+    <nav aria-label="Primary navigation">
+      <a href="#research">Research</a>
+      <a href="#projects">Projects</a>
+      <a href="#publications">Publications</a>
+      <a href="#about">About</a>
+    </nav>
+    <a class="header-link" href="mailto:xiaofan.ccui@gmail.com">Email ↗</a>
+  </header>
+
+  <main id="main">
+    <section class="hero" id="top">
+      <div class="hero-copy">
+        <p class="eyebrow">Human–AI interaction · Adaptive systems</p>
+        <h1>Xiaofan<br><span>Cui</span></h1>
+        <p class="hero-statement">I study how personal agents can recognize uncertainty about human intent, learn from interaction, and decide when to act, explain, clarify, offer alternatives, or return control.</p>
+        <div class="hero-actions">
+          <a class="button primary" href="#projects">Explore research</a>
+          <a class="button secondary" href="Xiaofan_Cui_CV.pdf" target="_blank">View CV ↗</a>
+        </div>
+      </div>
+      <div class="hero-visual" aria-label="Research loop from uncertain request to adaptive response">
+        <div class="signal signal-a"></div>
+        <div class="signal signal-b"></div>
+        <div class="signal signal-c"></div>
+        <div class="loop-center">
+          <span>UNCERTAIN<br>INTENT</span>
+          <strong>?</strong>
+        </div>
+        <span class="loop-label label-one">interpret</span>
+        <span class="loop-label label-two">decide</span>
+        <span class="loop-label label-three">learn</span>
+      </div>
+      <div class="hero-meta">
+        <span>Shanghai Jiao Tong University</span>
+        <span>M.Eng. candidate · 2027</span>
+        <span>Shanghai, China</span>
+      </div>
+    </section>
+
+    <section class="section research" id="research">
+      <div class="section-index">01 / Research focus</div>
+      <div class="research-grid">
+        <div>
+          <p class="eyebrow dark">The question</p>
+          <h2>How should an adaptive system respond when it is not sure what a person means?</h2>
+        </div>
+        <div class="research-copy">
+          <p>My work connects <strong>uncertainty-aware interaction</strong>, <strong>individual user modeling</strong>, and <strong>adaptive decision-making</strong>. I use smart environments as a controllable testbed for studying how an agent can learn preferences without hiding uncertainty or taking control away from the user.</p>
+          <div class="research-path" aria-label="Research process">
+            <span>Ambiguous request</span><i>→</i><span>Intent candidates</span><i>→</i><span>Interaction strategy</span><i>→</i><span>User feedback</span><i>→</i><span>Updated user model</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section projects" id="projects">
+      <div class="section-index light">02 / Selected work</div>
+      <div class="section-heading light-heading">
+        <h2>Research through systems<br>and evidence.</h2>
+        <p>Three projects show the progression from understanding ambiguous interaction to building adaptive agents and translating user evidence into design decisions.</p>
+      </div>
+
+      <article class="project featured">
+        <div class="project-media">
+          <img src="assets/adaptive-agent.png" alt="Interface of the adaptive smart-environment research prototype" width="1600" height="900">
+          <span class="media-note">WORKING PROTOTYPE · UE5 SIMULATION</span>
+        </div>
+        <div class="project-body">
+          <div class="project-number">01</div>
+          <p class="project-type">Master's thesis · 2026–present</p>
+          <h3>Adaptive User Modeling for Uncertain Interaction</h3>
+          <p class="project-lead">A closed-loop personal-agent testbed that learns from explanation requests, acceptance, rejection, and corrections.</p>
+          <ul class="facts">
+            <li>Persistent individual preference profiles</li>
+            <li>Adaptive explanation decisions across interactions</li>
+            <li>Multi-agent workflow connected to a controllable UE5 environment</li>
+            <li>Technical validation complete; formal user study in preparation</li>
+          </ul>
+          <details>
+            <summary>Read the research logic <span>+</span></summary>
+            <div class="detail-content">
+              <p>The system represents multiple plausible interpretations of an ambiguous request and treats acting, explaining, clarifying, offering alternatives, and returning control as distinct choices. Feedback from each interaction updates the individual model used in later decisions.</p>
+              <img src="assets/adaptive-agent-desktop.png" alt="Desktop view of the adaptive agent and smart-environment interface" loading="lazy">
+            </div>
+          </details>
+        </div>
+      </article>
+
+      <article class="project reversed">
+        <div class="project-media study-media">
+          <img src="assets/study-design.svg" alt="Two by two study design crossing request ambiguity and response explainability" width="1600" height="900">
+          <span class="media-note">2 × 2 BETWEEN-SUBJECTS STUDY</span>
+        </div>
+        <div class="project-body">
+          <div class="project-number">02</div>
+          <p class="project-type">Empirical study · 211 valid participants</p>
+          <h3>Explainable Responses under Ambiguous Intent</h3>
+          <p class="project-lead">An experiment on how request ambiguity and response explainability jointly shape experience with LLM-based smart-home assistants.</p>
+          <ul class="facts">
+            <li>Outcomes: trust, satisfaction, and enjoyment</li>
+            <li>Greater explainability mitigated the adverse effects of ambiguity</li>
+            <li>First-author manuscript revised following second-round peer review</li>
+          </ul>
+        </div>
+      </article>
+
+      <article class="project">
+        <div class="project-media">
+          <img src="assets/demand-platform.png" alt="Visual analytics platform for automotive user-demand analysis" width="1600" height="900" loading="lazy">
+          <span class="media-note">VISUAL ANALYTICS · MULTI-AGENT WORKFLOW</span>
+        </div>
+        <div class="project-body">
+          <div class="project-number">03</div>
+          <p class="project-type">Product-design research · 2024–2025</p>
+          <h3>AI-Assisted Dynamic User-Demand Analysis</h3>
+          <p class="project-lead">A structured workflow that turns fragmented online feedback into traceable design priorities.</p>
+          <ul class="facts">
+            <li>2,000 automotive reviews and 3,674 sentence-level records</li>
+            <li>Feature clustering, sentiment estimation, and time-series forecasting</li>
+            <li>Three-agent workflow with visual analytics</li>
+            <li>BYD Song PLUS case study focused on spatial and ergonomic needs</li>
+          </ul>
+        </div>
+      </article>
+    </section>
+
+    <section class="section publications" id="publications">
+      <div class="section-index">03 / Publications</div>
+      <div class="section-heading">
+        <h2>Research outputs.</h2>
+        <p>Published and ongoing work at the intersection of intelligent systems, user experience, and human–AI interaction.</p>
+      </div>
+      <ol class="publication-list">
+        <li>
+          <div class="pub-year">2026</div>
+          <div>
+            <p class="pub-status">Published · Co-author</p>
+            <h3>Knowledge and data co-driven Bayesian network for personalized user experience evaluation of smart product service system</h3>
+            <p>Advanced Engineering Informatics, 74, 104674.</p>
+          </div>
+          <a href="https://doi.org/10.1016/j.aei.2026.104674" target="_blank" rel="noreferrer">DOI ↗</a>
+        </li>
+        <li>
+          <div class="pub-year">2026</div>
+          <div>
+            <p class="pub-status">Under review · First author</p>
+            <h3>When user requests are ambiguous: The role of response explainability in shaping user experience with LLM-based smart home assistants</h3>
+            <p>Revised manuscript submitted to the International Journal of Human-Computer Interaction following second-round peer review.</p>
+          </div>
+          <span class="private-link">MANUSCRIPT NOT PUBLIC</span>
+        </li>
+      </ol>
+    </section>
+
+    <section class="section about" id="about">
+      <div class="section-index">04 / About</div>
+      <div class="about-grid">
+        <div>
+          <p class="eyebrow dark">Researcher · Designer · Builder</p>
+          <h2>From human needs to adaptive computational systems.</h2>
+        </div>
+        <div class="bio">
+          <p>I am a master's student in Mechanical Engineering at Shanghai Jiao Tong University, with a bachelor's background in Architecture. This combination shapes how I approach intelligent systems: as computational mechanisms that must also remain understandable, steerable, and responsive to people.</p>
+          <p>My methods span scenario-based experiments, questionnaires, interviews, quantitative analysis, Python prototyping, multi-agent systems, and immersive simulation.</p>
+          <dl>
+            <div><dt>Education</dt><dd>M.Eng., Shanghai Jiao Tong University, expected March 2027<br>B.Arch., Northeastern University, 2024</dd></div>
+            <div><dt>Interests</dt><dd>User modeling · Adaptive interaction · Uncertain intent · Human-centered AI</dd></div>
+            <div><dt>Tools</dt><dd>Python · Unreal Engine 5 · Unity · ESP32 · Rhino · Blender</dd></div>
+          </dl>
+        </div>
+      </div>
+    </section>
+
+    <section class="contact" id="contact">
+      <p class="eyebrow">PhD opportunities · 2027</p>
+      <h2>Let’s build adaptive systems<br>that understand uncertainty.</h2>
+      <div class="contact-row">
+        <a href="mailto:xiaofan.ccui@gmail.com">xiaofan.ccui@gmail.com ↗</a>
+        <a href="https://github.com/CcXiaoFan" target="_blank" rel="noreferrer">GitHub ↗</a>
+        <a href="Xiaofan_Cui_CV.pdf" target="_blank">CV ↗</a>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <span>© 2026 Xiaofan Cui</span>
+    <span>Designed for research communication</span>
+    <a href="#top">Back to top ↑</a>
+  </footer>
+</body>
+</html>

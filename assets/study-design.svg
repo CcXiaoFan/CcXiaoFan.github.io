@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 760" role="img" aria-labelledby="title desc">
+  <title id="title">Two by two study design</title>
+  <desc id="desc">A factorial design crossing request ambiguity and response explainability, with 211 valid participants.</desc>
+  <rect width="1200" height="760" fill="#0b0910"/>
+  <g stroke="#b392ff" stroke-opacity=".28" fill="none">
+    <path d="M110 150H1110M110 650H1110M250 90V700M750 90V700"/>
+    <circle cx="875" cy="400" r="226" opacity=".25"/>
+    <circle cx="875" cy="400" r="172" opacity=".16"/>
+  </g>
+  <g fill="#e9e5f4" font-family="Times New Roman,serif">
+    <text x="110" y="82" font-size="24" letter-spacing="4">EXPERIMENTAL DESIGN</text>
+    <text x="250" y="128" font-size="21" fill="#a9a2b7">LOW EXPLAINABILITY</text>
+    <text x="750" y="128" font-size="21" fill="#a9a2b7">HIGH EXPLAINABILITY</text>
+    <text x="42" y="305" font-size="19" transform="rotate(-90 42 305)" fill="#a9a2b7">LOW AMBIGUITY</text>
+    <text x="42" y="604" font-size="19" transform="rotate(-90 42 604)" fill="#a9a2b7">HIGH AMBIGUITY</text>
+    <text x="292" y="300" font-size="46">Act</text><text x="292" y="342" font-size="20" fill="#8d859a">Direct response</text>
+    <text x="792" y="300" font-size="46">Explain</text><text x="792" y="342" font-size="20" fill="#8d859a">Response + rationale</text>
+    <text x="292" y="548" font-size="46">Clarify</text><text x="292" y="590" font-size="20" fill="#8d859a">Intent recovery</text>
+    <text x="792" y="548" font-size="46">Return control</text><text x="792" y="590" font-size="20" fill="#8d859a">User-led resolution</text>
+    <text x="930" y="688" font-size="72" fill="#b392ff">n = 211</text>
+    <text x="110" y="718" font-size="18" letter-spacing="3" fill="#8d859a">OUTCOMES · TRUST / SATISFACTION / ENJOYMENT</text>
+  </g>
+  <g fill="#b392ff"><circle cx="250" cy="150" r="6"/><circle cx="750" cy="150" r="6"/><circle cx="250" cy="650" r="6"/><circle cx="750" cy="650" r="6"/></g>
+</svg>
